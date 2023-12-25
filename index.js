@@ -42,7 +42,7 @@ mongoose.connection.on("disconnected", () => {
 
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
-    return cb(null, `${__dirname}/public/Images`);
+    return cb(null, `./public/Images`);
   },
   filename: function (req, file, cb) {
     return cb(null, `${Date.now()}_${file.originalname}`);
