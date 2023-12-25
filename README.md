@@ -10,5 +10,5 @@ This project utilizes the Google Cloud Vision API for text extraction from Thai 
 - User-friendly React frontend for image uploading and analysis.
   
 ##WebApp Link
-[Visit the website](https://brilliant-faun-88c7ca.netlify.app/)
+[OCR_RECOGNITION_WEBAPP](https://brilliant-faun-88c7ca.netlify.app/)
 
